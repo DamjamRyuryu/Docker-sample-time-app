@@ -4,7 +4,8 @@ Assignment code for NEOsummer23 camp; Establish a website which can tell the tim
 How to use:
 
   1.  install Docker
-    
+
+  (Do the following two steps in terminals such as PowerShell)
   2.  Build your docker image (e.g., Run "docker build -t <YOUR Dockerhub USERNAME>/sample-time-app:latest .” after you have entered the directory where the Dockerfile is stored)
     
   3.  Run “docker run --name sample-time-app -p 8080:8080 -it <YOUR Dockerhub USERNAME>/sample-time-app”
